@@ -1,0 +1,8 @@
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 15%;
+}
