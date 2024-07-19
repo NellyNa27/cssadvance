@@ -43,5 +43,30 @@ menu a:hover {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 3fr 1fr 2fr;
+    /*grid-template-rows: 200px 300px 50px;*/
+    grid-auto-rows: 200px;
+    gap: 10px;
 }
+.grid-item {
+    border: solid 1px;
+}
+
+.imagen-1 {
+background-color: blue;
+}
+.imagen-2 {
+    background-color: green;
+    }
+    .imagen-3 {
+    background-color: yellow;
+        }
+    .imagen-4 {
+    background-color: pink;
+            }
+    .imagen-5 {
+    background-color: rgb(240, 41, 6);
+                }
+    .imagen-6 {
+    background-color: rgb(70, 11, 249);
+                    }

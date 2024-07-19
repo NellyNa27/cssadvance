@@ -1,0 +1,31 @@
+body {
+    color: white;
+    text-align: center;
+}
+
+.header {
+    grid-area: a;
+    background-color: greenyellow;
+}
+.main {
+    grid-area: b;
+    background-color: pink;
+}
+.sidebar {
+    grid-area: c;
+    background-color: blueviolet;
+}
+.footer {
+    grid-area: d;
+    background-color: orange;
+}
+.grid-container {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "a a a a"
+    "b b c c"
+    "b b c c"
+    "d d d d";
+}

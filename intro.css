@@ -1,0 +1,25 @@
+@media (min-width: 576px) {
+    body {
+        background-color: black;
+        color:aliceblue;
+        font-family: monospace;
+        font-size: small;
+    }
+}
+@media (min-width: 720px) {
+    body {
+        background-color: greenyellow;
+        color: black;
+        font-family: fantasy;
+        font-size: medium;
+        
+    }
+}
+@media (min-width: 940px) {
+    body {
+        background-color: pink;
+        color: purple;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+    }
+}
