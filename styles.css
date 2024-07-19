@@ -14,14 +14,20 @@ body{
 }
 menu {
     background-color: rgb(134, 77, 170);
+    width: 10em; 
+    /*si movemos el width podemos cambiar el menu a barra lateral*/
+    min-height: 100vh;
 }
 menu ul {
     margin: 0;
     padding: 0;
     display: flex;
+    
+    flex-direction: column;
+    /*si agregamos un flex direction columna, tenemos el menú lateral*/
 }
 menu li {
-    padding: 1em;
+    padding: 1.5em;
     list-style: none;
 }
 menu a {
@@ -31,4 +37,11 @@ menu a {
 }
 menu a:hover {
     color: palevioletred;
+}
+.main {
+    display: flex;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
