@@ -131,10 +131,26 @@ img {
     animation-direction: alternate;
 }
 @keyframes move {
-    from{
+    /*from{
         transform: translateY(0);
     }
     to {
         transform: translateY(400px);
+    }*/
+    0% {
+        transform: translateX(0);
+    }
+    24% {
+        transform:translateX(100px);
+    }
+    50% {
+        transform: translateX(0);
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
