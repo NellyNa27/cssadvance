@@ -130,6 +130,8 @@ img {
     animation: move 2s infinite;
     animation-direction: alternate;
 }
+
+
 @keyframes move {
     /*from{
         transform: translateY(0);
